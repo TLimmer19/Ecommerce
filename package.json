@@ -1,0 +1,27 @@
+{
+    "name": "ecommerce",
+    "version": "1.0.0",
+    "description": "Homework 13 Ecommerce",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "seed": "node seeds/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TLimmer19/Ecommerce.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TLimmer19/Ecommerce/issues"
+    },
+    "homepage": "https://github.com/TLimmer19/Ecommerce#readme",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "mysql2": "^2.2.5",
+        "sequelize": "^6.6.5"
+    }
+}
