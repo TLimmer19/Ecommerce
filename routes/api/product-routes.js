@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
       }
     ]
   }).then((allProducts) => {
-    res.join(allProducts)
+    res.json(allProducts)
   })
 });
 
@@ -44,7 +44,7 @@ router.get('/:id', (req, res) => {
       }
     ]
   }).then((oneProduct) => {
-    req.json(oneProduct)
+    res.json(oneProduct)
   })
 });
 
